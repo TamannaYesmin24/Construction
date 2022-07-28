@@ -1174,6 +1174,9 @@
         padding-bottom: 35px;
     } */
     /* copyright part end */
+    body, html{
+        overflow-x: hidden;
+    }
 
 }
 /* extra-small device end */
