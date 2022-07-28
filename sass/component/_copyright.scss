@@ -1,0 +1,10 @@
+#copyright{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .copyright-text{
+        p{
+            @include font('Poppins',14px,500,$copytextcolor);
+        }
+    }
+}

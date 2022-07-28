@@ -1,0 +1,1179 @@
+/* extra large part start */
+
+@media (min-width:1400px){
+    /* nothing to be modified in this device */
+}
+
+/* extra large part end */
+
+
+/* extra large part start */
+/* experience part start */
+@media (min-width:1200px) and (max-width:1399.99px){
+    #experience .experience-wrapper .experience-item-wrapper {
+        margin-top: 125px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item {
+        margin-bottom: 120px;
+    }
+}
+
+/* experience part end */
+/* contact part start */
+#contact .contact-map .contact-img {
+    right: -95px;
+}
+/* contact part end */
+
+/* extra large part end */
+
+/* large device start */
+@media (min-width:992px) and (max-width:1199.99px){
+
+    /* navbar part start */
+    /* .navbar .navbar-brand {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } */
+    /* navbar part end */
+
+    /* banner part start */
+    #banner .banner-left .banner-text h1 {
+        font-size: 52px;
+        line-height: 120%;
+        margin-top: 75px;
+    }
+
+    #banner .banner-left {
+        padding-left: 4px;
+    }
+    #banner .banner-left .banner-text p {
+        padding-right: 93px;
+    }
+    #banner .banner-left .banner-text .banner-btn a {
+        width: 205px;
+    }
+    #banner .banner-left .banner-counter .count-item .count-ban p {
+        font-size: 16px;
+    }
+    /* #banner .banner-right {
+        margin-right: -24px;
+    } */
+    /* banner part end */
+
+    /* experience part start */
+    #experience .heading p {
+        font-size: 17px;
+        padding-right: 35px;
+    }
+    #experience .head h2 {
+        font-size: 48px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper {
+        margin-top: 100px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item {
+        margin-bottom: 92px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        margin-left: 0;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-right p {
+        padding-right: 6px;
+    }
+    /* experience part end */
+
+    /* team part start */
+    #team .team-head .header h3 {
+        font-size: 47px;
+    }
+    #team .team-head .header p {
+        font-size: 17px;
+    }
+    /* team part end */
+    /* message part start */
+    #message .message-head h2 {
+        font-size: 47px;
+    }
+    #message .message-wrapper .message-up .message-icon {
+        left: 4px;
+    }
+    #message .message-wrapper .message-up p {
+        padding-left: 90px;
+        padding-right: 95px;
+    }
+    #message .message-wrapper .message-down p {
+        padding-left: 92px;
+        padding-right: 117px;
+    }
+    #message .message-wrapper .message-down .message-icon2 {
+        right: 42px;
+    }
+    /* message part end */
+    /* contact part start */
+    #contact .contact-head p {
+        font-size: 17px;
+    }
+    #contact .contact-map .contact-img {
+        right: -30px;
+    }
+    /* contact part end */
+    /* blog part start */
+    #blog .blog-head p {
+        font-size: 17px;
+    }
+    /* blog part end */
+
+    /* subscribe part start */
+    #subscribe .subscribe-head h3 {
+        font-size: 53px;
+    }
+    #subscribe .subscribe-head p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* subscribe part end */
+
+}
+/* large device end */
+/* medium device start */
+@media (min-width:768px) and (max-width:991.99px){
+
+    /* navbar part start */
+    .navbar .navbar-brand {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus + .btn-primary, .btn-primary:focus {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 0 0 transparent;
+    }
+    .btn-primary {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    /* navber part end */
+
+    /* banner part start */
+    #banner .banner-left .banner-text h1 {
+        font-size: 56px;
+        line-height: 115%;
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    #banner .banner-left .banner-text p {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        line-height: 28px;
+        padding-right: 70px;
+    }
+    #banner .banner-btn{
+        text-align: center;
+    }
+    #banner .banner-left .banner-text .banner-btn a {
+        width: 200px;
+        font-size: 17px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        margin-right: 14px;
+    }
+    #banner .banner-right {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #banner .banner-right .ban-img::before {
+        display: none;
+    }
+    #banner .banner-right .ban-img::after {
+        display: none;
+    }
+    #banner .banner-left .banner-text .banner-btn .bann-line {
+        display: none;
+    }
+    #banner .banner-left .banner-counter {
+        margin-top: 67px;
+        margin-bottom: 20px;
+    }
+    
+    .count-item {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .count-size {
+        left: 23px;
+        position: absolute;
+    }
+    
+    /* banner part end */
+
+    /* sponsorship part start */
+    #sponsorship {
+        padding-bottom: 110px;
+    }
+    #sponsorship .sponsorship-wrapper {
+        border-radius: 0px;
+        padding-top: 74px;
+        padding-bottom: 0;
+    }
+    .spons-item {
+        margin-bottom: 80px;
+    }
+    /* sponsorship part end */ 
+
+    /* experience part start */
+    #experience {
+        padding-bottom: 125px;
+    }
+    #experience .experience-wrapper .exper-item {
+        margin-top: 104px;
+    }
+    #experience .heading p {
+        font-size: 17px;
+        line-height: 28px;
+        padding-right: 32px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #experience .exp-btn{
+        text-align: center;
+    }
+    #experience .heading .exp-btn a {
+        width: 200px;
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #experience .head h2 {
+        font-size: 44px;
+        text-align: center;
+        margin-top: 43px;
+    }
+    #experience .experience-wrapper {
+        margin-top: 100px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 120px;
+        margin-bottom: 0;
+    }
+    /* #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        margin-left: 50px;
+    } */
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        /* position: relative; */
+        text-align: center;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-right p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-right: 65px;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    #experience .experience-wrapper .experience-item-wrapper .experience-item {
+        margin-bottom: 80px;
+    }
+    /* experience part end */
+
+    /* team part start */
+    #team .team-head .header h3 {
+        font-size: 50px;
+        line-height: 54px;
+    }
+    #team .team-head .header p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 65px;
+        padding-right: 0;
+    }
+    /* team part end */       
+
+    /* message part start */
+    #message {
+        padding-top: 130px;
+        padding-bottom: 215px;
+    }
+    #message .message-head h2 {
+        font-size: 49px;
+        margin-bottom: 70px;
+        line-height: 73px;
+    }
+    .message-size {
+        width: 55px;
+        height: 80px;
+    }
+    #message .message-wrapper .message-up .message-icon {
+        position: absolute;
+        top: -50px;
+        left: -37px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #message .message-wrapper .message-down .message-icon2 {
+        position: absolute;
+        bottom: -84px;
+        right: 0px;
+    }
+    
+    /* message part end */
+
+    /* contact part start */
+    #contact {
+        padding-top: 130px;
+    }
+    #contact .contact-head h3 {
+        font-size: 50px;
+        margin-bottom: 28px;
+    }
+    #contact .contact-head p {
+        font-size: 20px;
+        margin-bottom: 75px;
+    }
+    #contact .mess-btn{
+        text-align: center;
+    }
+    #contact .contact-form .mess-btn a {
+        width: 200px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    #contact .contact-map .contact-img {
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    /* contact part end */
+
+    /* blog part start */
+    #blog {
+        padding-bottom: 125px;
+    }
+    #blog .blog-head h3 {
+        margin-top: 358px;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    
+    #blog .blog-head p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 70px;
+    }
+    #blog .blog-item{
+        margin-bottom: 40px;
+    }
+    #blog .blog-line .blog-item .blog-content h3 {
+        font-size: 26px;
+    }
+    #blog .blog-line .blog-item .blog-content p {
+        margin-bottom: 60px;
+    }
+    #blog .blog-line .blog-item .blog-content a {
+        width: 196px;
+        font-size: 17px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    /* blog part end */
+
+    /* subscribe part start */
+    #subscribe {
+        padding-bottom: 140px;
+    }
+    #subscribe .subscribe-head h3 {
+        font-size: 46px;
+        line-height: 52px;
+        margin-bottom: 26px;
+    }
+    #subscribe .subscribe-head p {
+        font-size: 20px;
+        margin-bottom: 37px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #subscribe .subscribe-head .subs-btn {
+        width: 210px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    /* subscribe part end */
+
+    /* footer part start */
+    #footer .footer-wrapper .footer-cons .footer-content p {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 19px;
+        margin-bottom: 25px;
+        padding-right: 50px;
+    }
+    .fot-img {
+        margin-left: 0;
+    }
+    .foot-btn {
+        margin-left: 0;
+    }
+    #footer .footer-gap{
+        margin-top: 0;
+    }
+   
+    #footer .footer-resou {
+        margin-top: 1px;
+    }
+    #footer .footer-company {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+    .footer-get {
+        margin-top: 35px;
+        margin-left: 55px;
+    }
+    #footer .footer-wrapper .footer-get h4 {
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+    
+    /* footer part end */
+}
+/* medium device end */
+/* small device start */
+@media (min-width:576px) and (max-width:767.99px){
+
+    /* navbar part start */
+    .navbar .navbar-brand {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transform: scale(1);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus + .btn-primary, .btn-primary:focus {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 0 0 transparent;
+    }
+    .btn-primary {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    /* navber part end */
+
+    /* banner part start */
+    #banner .banner-left .banner-text h1 {
+	font-size: 42px;
+	line-height: 109%;
+	margin-top: 33px;
+	text-align: center;
+    }
+    
+    #banner .banner-left .banner-text p {
+        font-size: 17px;
+        margin-top: 34px;
+        margin-bottom: 35px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+    #banner .banner-btn{
+        text-align: center;
+    }
+    #banner .banner-left .banner-text .banner-btn a {
+        width: 165px;
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 14px;
+    }
+    #banner .banner-right {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #banner .banner-right .ban-img::before {
+        display: none;
+    }
+    #banner .banner-right .ban-img::after {
+        display: none;
+    }
+    #banner .banner-left .banner-text .banner-btn .bann-line {
+        display: none;
+    }
+    #banner .banner-left .banner-counter {
+        margin-top: 67px;
+        margin-bottom: 20px;
+    }
+    
+    .count-item {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .count-size {
+        left: 23px;
+        position: absolute;
+    }
+    
+    /* banner part end */ 
+
+    /* sponsorship part start */
+    #sponsorship {
+        padding-bottom: 93px;
+    }
+    #sponsorship .sponsorship-wrapper {
+        border-radius: 0px;
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .spons-item {
+        margin-bottom: 60px;
+    }
+    /* sponsorship part end */ 
+
+    /* experience part start */
+    #experience {
+        padding-bottom: 100px;
+    }
+    #experience .experience-wrapper .exper-item {
+        margin-top: 104px;
+    }
+    #experience .heading p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-right: 23px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    #experience .exp-btn{
+        text-align: center;
+    }
+    #experience .heading .exp-btn a {
+        width: 188px;
+        font-size: 17px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    #experience .head h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 43px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper {
+        margin-top: 105px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-right p {
+        font-size: 17px;
+        line-height: 28px;
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        text-align: center;
+        margin-left: 0;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item {
+        margin-bottom: 80px;
+    }
+    /* experience part end */
+
+    /* team part start */
+    #team .team-head .header h3 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    #team .team-head .header p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 60px;
+        padding-right: 44px;
+    }
+    /* team part end */
+
+    /* message part start */
+    #message {
+        padding-top: 100px;
+        padding-bottom: 187px;
+    }
+    #message .message-head h2 {
+        font-size: 42px;
+        margin-bottom: 62px;
+        line-height: 63px;
+    }
+    .message-size {
+        width: 55px;
+        height: 70px;
+    }
+    #message .message-wrapper .message-up .message-icon {
+        position: absolute;
+        top: -44px;
+        left: -66px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-right:0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #message .message-wrapper .message-down .message-icon2 {
+        position: absolute;
+        bottom: -84px;
+        right: -18px;
+    }
+    
+    /* message part end */
+
+    /* contact part start */
+    #contact {
+        padding-top: 110px;
+    }
+    #contact .contact-head h3 {
+        font-size: 46px;
+        margin-bottom: 25px;
+    }
+    #contact .contact-head p {
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 73px;
+    }
+    #contact .mess-btn{
+        text-align: center;
+    }
+    #contact .contact-form .mess-btn a {
+        width: 188px;
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #contact .contact-map .contact-img {
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    /* contact part end */
+
+    /* blog part start */
+    #blog {
+        padding-bottom: 113px;
+    }
+    #blog .blog-head h3 {
+        margin-top: 275px;
+        margin-bottom: 27px;
+        font-size: 47px;
+    }
+    
+    #blog .blog-head p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 53px;
+    }
+    #blog .blog-item{
+        margin-bottom: 40px;
+    }
+    #blog .blog-line .blog-item .blog-content h3 {
+        font-size: 25px;
+    }
+    #blog .blog-line .blog-item .blog-content p {
+        font-size: 16px;
+        margin-bottom: 53px;
+    }
+    #blog .blog-line .blog-item .blog-content a {
+        width: 165px;
+        font-size: 16px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    /* blog part end */
+
+    /* subscribe part start */
+    #subscribe {
+        padding-bottom: 130px;
+    }
+    #subscribe .subscribe-head h3 {
+        font-size: 45px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    #subscribe .subscribe-head p {
+        font-size: 19px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #subscribe .subscribe-head .subs-btn {
+        width: 193px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* subscribe part end */
+
+    /* footer part start */
+
+    /* #footer .footer-wrapper .footer-cons {
+        text-align: center;
+    } */
+    #footer .footer-wrapper .footer-cons .footer-content p {
+        font-size: 15px;
+        margin-left: -14px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        padding-right: 22px;
+    }
+    .fot-img {
+        margin-left: -15px;
+    }
+    .foot-btn {
+        margin-left: -15px;
+    }
+    #footer .footer-gap{
+        margin-top: 0;
+    }
+    #footer .footer-wrapper .footer-resou {
+        padding-left: 5px;
+    }
+    #footer .footer-resou {
+        margin-top: 7px;
+    }
+    #footer .footer-company {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+    .footer-get {
+        margin-top: 35px;
+    }
+    #footer .footer-wrapper .footer-get h4 {
+        margin-top: 0;
+        margin-bottom: 27px;
+        /* text-align: center; */
+    }
+    
+    /* footer part end */
+
+    /* copyright part start */
+    #copyright {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /* copyright part end */
+    
+}
+/* small device end */
+/* extra-small device start */
+@media (max-width:575.99px){
+    /* navbar part start */
+    .navbar .navbar-brand {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transform: scale(0.9);
+    }
+    .scroll-logo {
+        padding: 10px !important;
+        /* margin-left: -18px; */
+    }
+    .sticky-menu {
+        padding: 10px 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-check:focus + .btn-primary, .btn-primary:focus {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 0 0 transparent;
+    }
+    .btn-primary {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    /* navber part end */
+    /* banner part start */
+    #banner .banner-left .banner-text h1 {
+        font-size: 28px;
+        line-height: 106%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #banner .banner-left .banner-text p {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 24px;
+        padding-right: 0;
+    }
+    #banner .banner-btn{
+        text-align: center;
+    }
+    #banner .banner-left .banner-text .banner-btn a {
+        width: 118px; 
+        font-size: 14px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        margin-right: 9px;
+    }
+    #banner .banner-right {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #banner .banner-right .ban-img::before {
+        display: none;
+    }
+    #banner .banner-right .ban-img::after {
+        display: none;
+    }
+    #banner .banner-left .banner-text .banner-btn .bann-line {
+        display: none;
+    }
+    #banner .banner-left .banner-counter {
+        margin-top: 67px;
+        margin-bottom: 20px;
+    }
+    
+    .count-item {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .count-size {
+        left: 23px;
+        position: absolute;
+    }
+    
+    /* banner part end */
+    /* sponsorship part start */
+    #sponsorship {
+        padding-bottom: 93px;
+    }
+    #sponsorship .sponsorship-wrapper {
+        border-radius: 0px;
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .spons-item {
+        margin-bottom: 60px;
+    }
+    /* sponsorship part end */
+
+    /* experience part start */
+    #experience {
+        padding-bottom: 100px;
+    }
+    #experience .experience-wrapper .exper-item {
+        margin-top: 104px;
+    }
+    #experience .heading p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #experience .exp-btn{
+        text-align: center;
+    }
+    #experience .heading .exp-btn a {
+        width: 148px;
+        font-size: 14px;
+        padding-top: 12px;
+        padding-bottom: 13px;
+    }
+    #experience .head h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper {
+        margin-top: 95px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-right p {
+        font-size: 15px;
+        line-height: 27px;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #experience .experience-wrapper .experience-item-wrapper .experience-item {
+        margin-bottom: 75px;
+    }
+    /* #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        position: relative;
+        text-align: center;
+    } */
+    #experience .experience-wrapper .experience-item-wrapper .experience-item .exper-item-left {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    /* experience part end */
+
+    /* team part start */
+    #team .team-head .header h3 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+    #team .team-head .header p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 55px;
+    }
+    /* team part end */
+    /* message part start */
+    #message {
+        padding-top: 85px;
+        padding-bottom: 164px;
+    }
+    #message .message-head h2 {
+        font-size: 36px;
+        margin-bottom: 50px;
+        line-height: 50px;
+    }
+    .message-size {
+        width: 50px;
+        height: 30px;
+    }
+    #message .message-wrapper .message-up .message-icon {
+        position: absolute;
+        top: -26px;
+        left: -56px;
+    }
+    #message .message-wrapper .message-up p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: -15px;
+        margin-right: -16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #message .message-wrapper .message-down p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -15px;
+        margin-right: -24px;
+    }
+    #message .message-wrapper .message-down .message-icon2 {
+        position: absolute;
+        bottom: -40px;
+        right: -21px;
+    }
+    
+    /* message part end */
+    /* contact part start */
+    #contact {
+        padding-top: 93px;
+    }
+    #contact .contact-head h3 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    #contact .contact-head p {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 70px;
+    }
+    #contact .mess-btn{
+        text-align: center;
+    }
+    #contact .contact-form .mess-btn a {
+        width: 168px;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #contact .contact-map .contact-img {
+        position: absolute;
+        top: 28px;
+        right: 0;
+    }
+    /* contact part end */
+    /* blog part start */
+    #blog {
+        padding-bottom: 82px;
+    }
+    #blog .blog-head h3 {
+        margin-top: 238px;
+        margin-bottom: 23px;
+        font-size: 41px;
+    }
+    
+    #blog .blog-head p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 45px;
+    }
+    #blog .blog-item{
+        margin-bottom: 40px;
+    }
+    #blog .blog-line .blog-item .blog-content h3 {
+        font-size: 23px;
+    }
+    #blog .blog-line .blog-item .blog-content p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    #blog .blog-line .blog-item .blog-content a {
+        width: 141px;
+        font-size: 14px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    
+    /* blog part end */
+    /* subscribe part start */
+    #subscribe {
+        padding-bottom: 130px;
+    }
+    #subscribe .subscribe-head h3 {
+        font-size: 34px;
+        line-height: 43px;
+        margin-bottom: 16px;
+    }
+    #subscribe .subscribe-head p {
+        font-size: 16px;
+        margin-bottom: 23px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #subscribe .subscribe-head .subs-btn {
+        width: 180px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    /* subscribe part end */
+    /* footer part start */
+    #footer .footer-wrapper .footer-cons {
+        text-align: center;
+    }
+    #footer .footer-wrapper .footer-cons .footer-content p {
+        font-size: 15px;
+        margin-left: -14px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        padding-right: 0px;
+    }
+    #footer .footer-gap{
+        margin-top: 45px;
+    }
+    #footer .footer-wrapper .footer-resou {
+        padding-left: 0;
+        
+    }
+    #footer .footer-resou{
+        margin-left: 15px;
+    }
+    #footer .footer-company {
+        margin-left: 33px;
+    }
+    #footer .footer-wrapper .footer-get h4 {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* footer part end */
+
+    /* copyright part start */
+    /* #copyright {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    } */
+    /* copyright part end */
+
+}
+/* extra-small device end */

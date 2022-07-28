@@ -1,0 +1,115 @@
+#footer{
+    padding-bottom: 69px;
+
+    .footer-wrapper{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            bottom: -68px;
+            left: 0;
+            background-color: $contactformbg;
+        }
+        .footer-cons{
+            @include pgap(15px,0,0,0);
+            @include mgap(0,0,-7px,0);
+            .footer-content{
+                p{
+                    @include font('Poppins',16px,400,$quationcolor);
+                    line-height: 28px;
+                    @include mgap(0,0,30px,40px);
+                    @include pgap(0,40px,0,0);
+                }
+            }
+                .foot-btn{
+                    a{
+                        @include pgap(10px,10px,6px,8px);
+                        border-radius: 5px;
+                        background-color: $bordercolorbg;
+                        margin-right: 14px;
+                        display: inline-block;
+                        svg{
+                            color: #fff;
+                        }
+                    }
+                }
+                
+            
+        }
+    
+        .footer-resou{
+            @include pgap(50px,0,0,0);
+            h4{
+                @include font('Poppins',18px,600,$headingcolor);
+                text-transform: capitalize;
+                @include mgap(0,0,0,39px);
+            }
+            ul{
+                @include pgap(0,0,0,0);
+                li{
+                    @include mgap(0,0,0,18px);
+                    a{
+                        @include font('Poppins',16px,400,$quationcolor);
+                    }
+                }
+            }
+        }
+        
+        .footer-company{
+            h4{
+                @include font('Poppins',18px,600,$headingcolor);
+                text-transform: capitalize;
+                @include mgap(0,0,0,37px);
+            }
+            ul{
+                @include pgap(0,0,0,0);
+                li{
+                    @include mgap(0,0,0,21px);
+                    a{
+                        @include font('Poppins',16px,400,$quationcolor);
+                    }
+                }
+            }
+        }
+    
+        .footer-get{
+            h4{
+                @include font('Poppins',18px,600,$headingcolor);
+                text-transform: capitalize;
+                @include mgap(0,0,0,37px);
+            }
+            form{
+                position: relative;
+    
+                input{
+                    width: 100%;
+                    @include font('Poppins',10px,600,$headingcolor);
+                    @include pgap(18px,0,13px,13px);
+                    border-radius: 6px;
+                    background-color: $countercolorbg;
+                    border: none;
+                    outline: none;
+                }
+                .form-icon{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid $bordercolorbg;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 10px;
+                    right: 13px;
+                    svg{
+                        color: $anothertextcolor;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

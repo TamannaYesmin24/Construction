@@ -1,0 +1,119 @@
+#blog{
+    padding-bottom: 140px;
+
+    .blog-head{
+        h3{
+            @include font('Poppins',54px,600,$headingcolor);
+            text-transform: capitalize;
+            @include mgap(0,0,0,30px);
+        }
+        p{
+            @include font('Roboto',20px,400,$quationcolor);
+            line-height: 28px;
+            @include mgap(0,0,0,80px);
+        }
+    }
+
+    .blog-line{
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            right: -30px;
+            width: 2px;
+            height: 100%;
+            background-color: #cbcbcb;
+        }
+        &::after{
+            position: absolute;
+            content: '';
+            top: 20%;
+            right: -30px;
+            width: 9px;
+            height: 55px;
+            background-color: $bordercolorbg;
+            transform: translateY(-50%);
+        }
+        .blog-item{
+            position: relative;
+            transition: all linear 0.3s;
+            img{
+                border-radius: 20px;
+            }
+    
+            .blog-overlay{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 20px;
+                opacity: 0;
+                transition: all linear 0.3s;
+            }
+    
+            .blog-content{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                h3{
+                    @include font('Source Sans Pro',27px,700,$textcolor);
+                    text-transform: capitalize;
+                    @include mgap(0,0,0,24px);
+                }
+                p{
+                    @include font('Source Sans Pro',16px,400,$textcolor);
+                    @include mgap(0,0,0,60px);
+                }
+                a{
+                    width: 214px;
+                    display: inline-block;
+                    border: 1px solid $textcolor;
+                    @include font('Poppins',17px,400,$bordertextcolor);
+                    @include pgap(0px,0px,22px,22px);
+                    @include mgap(0px,0px,0px,55px);
+                    text-transform: capitalize;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 40px;
+                    text-align: center;
+                    display: none;
+                    transition: all linear 0.3s;
+    
+                    &:hover{
+                        border: none;
+                        background-color: $bordercolorbg;
+                        color: $headingcolor;
+                    }
+                }
+            }
+    
+            &:hover{
+                .blog-overlay{
+                    opacity: 1;
+                }
+                .blog-content{
+                    a{
+                        display: inline-block;
+                        animation: fade_in_show 1s;
+                        @keyframes fade_in_show {
+                            0%{
+                                opacity: 0;
+                                transform: scale(0);
+                            }
+                            100%{
+                                opacity: 1;
+                                transform: scale(1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

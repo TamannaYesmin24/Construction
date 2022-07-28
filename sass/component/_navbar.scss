@@ -1,0 +1,73 @@
+.navbar{
+    @include pgap(0,0,0,0);
+    z-index: 99;
+    .navbar-brand{
+        @include pgap(0,0,62px,62px);
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                padding-left: 0;
+                padding-right: 0;
+                @include font('Poppins',18px,400,$headingcolor);
+                text-transform: capitalize;
+                position: relative;
+                transition: all linear 0.3s;
+                &::before{
+                    position: absolute;
+                    content: attr(title);
+                    display: block;
+                    overflow: hidden;
+                    visibility: hidden;
+                    font-weight: 600;
+                    // height: 1px;
+                    color: transparent;
+                }
+                &::after{
+                    content: '';
+                    position: absolute;
+                    width: 4px;
+                    height: 4px;
+                    background-color: $hovercolorbg;
+                    border-radius: 50%;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translateX(-50%);
+                    opacity: 0;
+                }
+                &:hover{
+                    text-shadow: 1px 0px 0px currentColor;
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+            }
+            @include pgap(18px,18px,0,0);
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+// sticky menu start
+.sticky-menu{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #D4F6CC;
+    animation: sticky 1s;
+}
+@keyframes sticky{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+.scroll-logo{
+    padding: 30px !important;
+}
+// sticky menu end

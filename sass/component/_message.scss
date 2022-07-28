@@ -1,0 +1,45 @@
+#message{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/message.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include pgap(0,0,176px,237px);
+    .message-head{
+        h2{
+            @include font('Poppins',54px,500,$bordertextcolor);
+            @include mgap(0,0,0,80px);
+            line-height: 76px;
+        }
+    }
+    .message-wrapper{
+        @include mgap(50px,50px,0,0);
+        .message-up{
+            position: relative;
+            .message-icon{
+                position: absolute;
+                top: -47px;
+                left: 38px;
+            }
+            p{
+            @include font('Poppins',18px,400,$bordertextcolor);
+            line-height: 28px;
+            @include mgap(0,0,0,50px);
+            @include pgap(134px,203px,0,0);
+            }
+        }
+        .message-down{
+            position: relative;
+            .message-icon2{
+                position: absolute;
+                bottom: -63px;
+                right: 123px;
+            }
+            p{
+            @include font('Poppins',18px,400,$bordertextcolor);
+            line-height: 28px;
+            @include pgap(134px,200px,0,0);
+            }
+        }
+    }
+    
+}

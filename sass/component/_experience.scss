@@ -1,0 +1,135 @@
+#experience{
+    padding-bottom: 140px;
+    .heading{
+        p{
+            @include font('Poppins',18px,400,$quationcolor);
+            line-height: 28px;
+            @include pgap(0,93px,0,0);
+            @include mgap(0,0,0,30px);
+        }
+        .exp-btn{
+            a{
+                width: 214px;
+                    display: inline-block;
+                    border: 1px solid $bordercolorbg;
+                    @include font('Poppins',17px,500,$anothertextcolor);
+                    @include pgap(0px,0px,22px,22px);
+                    text-transform: capitalize;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 40px;
+                    text-align: center;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        background-color: $bordercolorbg;
+                        color: $textcolor;
+                        border: none;
+                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    }
+            }
+        }
+    }
+    .head{
+        h2{
+            @include font('Poppins',54px,500,$headingcolor);
+            line-height: 120%;
+        }
+    }
+
+    .experience-wrapper{
+        margin-top: 109px;
+        .experience-left{
+            .exper-img{
+                img{
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 292px;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+        }
+        
+        .experience-item-wrapper{
+            @include mgap(0,0,150px,0);
+            .experience-item{
+                margin-bottom: 150px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .exper-item-left{
+                    margin-left: 16px;                    
+                    .exper-num{
+                        
+                        h4{
+                            @include font('Poppins',72px,600,$headingcolor); 
+                            margin-bottom: -30px;
+                            margin-left: 30px;
+                            position: relative;
+                        }
+                    }
+                }
+                .exper-item-right{
+                    p{
+                        @include font('Poppins',18px,400,$quationcolor);
+                        line-height: 28px;
+                        @include pgap(0,45px,0,0);
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+
+
+
+        // .experience-left{
+        //     .exper-img{
+        //         img{
+        //             border-top-left-radius: 10px;
+        //             border-top-right-radius: 292px;
+        //             border-bottom-left-radius: 10px;
+        //             border-bottom-right-radius: 10px;
+        //         }
+        //     }
+        // }
+
+        // .exper-item{
+        //     @include mgap(0,0,200px,0);
+        //     @include pgap(72px,0,0,0);
+        //     .exper-gap{
+        //         @include mgap(0,0,0,142px);
+        //         .exper-left{
+        //             position: relative;
+        //             display: inline-block;
+        //             .exper-svg{
+        //                 position: absolute;
+        //                 top: -4px;
+        //                 left: 28px;
+        //                 z-index: -1;
+        //             }
+        //             .exper-num{
+        //                 display: inline-block;
+        //                 position: absolute;
+        //                 left: 68px;
+        //                 h4{
+        //                     @include font('Poppins',72px,600,$headingcolor);
+        //                 }
+        //             }
+        //         }
+        //         .exper-right{
+        //             .exper-text{
+        //                 p{
+        //                     @include font('Poppins',18px,400,$quationcolor);
+        //                     line-height: 28px;
+        //                     @include pgap(0,60px,0,0);
+        //                 }
+        //             }
+        //         }
+        //         &:last-child{
+        //             margin-bottom: 0;
+        //         }
+        //     }
+        // }
+    }
+}

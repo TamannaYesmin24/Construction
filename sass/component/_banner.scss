@@ -1,0 +1,138 @@
+#banner{
+    padding-bottom: 65px;
+    .banner-left{
+        padding-left: 15px;
+        .banner-text{
+            h1{
+                @include font('Poppins',64px,700,$headingcolor);
+                line-height: 120%;
+                margin-top: 100px;
+                span{
+                    color: $anothertextcolor;
+                }
+            }
+            p{
+                @include font('Poppins',18px,400,$quationcolor);
+                @include mgap(0,0,40px,40px);
+                line-height: 28px;
+                @include pgap(0,93px,0,0);
+            }
+            .banner-btn{
+                position: relative;
+                a{
+                    width: 214px;
+                    display: inline-block;
+                    border: 1px solid $bordercolorbg;
+                    @include font('Poppins',17px,500,$anothertextcolor);
+                    @include pgap(0px,0px,22px,22px);
+                    text-transform: capitalize;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 40px;
+                    text-align: center;
+                    transition: all linear 0.3s;
+                    position: relative; 
+                    &:hover{
+                        background-color: $bordercolorbg;
+                        color: $textcolor;
+                        border: none;
+                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    }
+                    @include mgap(0,16px,0,0);
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    
+                    // &:last-child{
+                    //     &::after{
+                    //         opacity: 0;
+                    //     }
+                    // }
+                }
+                .bann-line{
+                    position: absolute;
+                    left: -129px;
+                    bottom: -540px;
+                    z-index: -1;
+
+                }
+            }
+        }
+        
+        .banner-counter{
+            @include mgap(0,0,112px,0);
+            .count-item{
+                // position: relative;
+                .count-ban{
+                    @include mgap(0,53px,0,0);
+                    position: relative;
+                    display: inline-block;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    h3{
+                        @include font('Poppins',40px,500,$headingcolor);
+                        @include mgap(0,0,0,15px);
+                    }
+                    p{
+                        @include font('Poppins',20px,400,$quationcolor);
+                        text-transform: capitalize;
+                    }
+                    .count-svg{
+                        position: absolute;
+                        top: -18px;
+                        left: 0px;
+                        z-index: -1;
+                    }
+                }
+                // .count-svg{
+                //     position: absolute;
+                //     top: -18px;
+                //     left: -3px;
+                //     z-index: -1;
+                // }
+                p{
+                    @include font('Poppins',20px,400,$quationcolor);
+                    text-transform: capitalize;
+                }
+            }
+            
+        }
+    }
+    .banner-right{
+        margin-top: -110px;
+        margin-right: -93px;
+        .ban-img{
+            position: relative;
+            img{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 300px;
+                border-bottom-right-radius: 10px;
+                z-index: 1;
+            }
+            &::before{
+                position: absolute;
+                content: '';
+                top: 24%;
+                left: -119px;
+                width: 238px;
+                height: 213px;
+                transform: translateY(-50%);
+                background: url(../image/rec-1.png);
+                z-index: -1;
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                bottom: -54px;
+                right: 30px;
+                width: 238px;
+                height: 213px;
+                background: url(../image/rec-2.png);
+                z-index: -1;
+            }
+        }
+    }
+}

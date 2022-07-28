@@ -1,0 +1,9 @@
+#sponsorship{
+    padding-bottom: 140px;
+    .sponsorship-wrapper{
+        border-radius: 150px;
+        background-color: $countercolorbg;
+        // @include pgap(83px,80px,74px,74px);
+        @include pgap(0px,0px,74px,74px);
+    }
+}

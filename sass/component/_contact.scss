@@ -1,0 +1,138 @@
+#contact{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 8px;
+        height: 200px;
+        top: 110px;
+        left: 0;
+        background-color: #18A7B9;
+    }
+    .contact-head{
+        h3{
+            @include font('Poppins',54px,600,$headingcolor);
+            text-transform: capitalize;
+            @include mgap(0,0,0,30px);
+        }
+        p{
+            @include font('Roboto',20px,400,$quationcolor);
+            line-height: 28px;
+            @include mgap(0,0,0,80px);
+        }
+    }
+    .contact-form{
+        position: relative;
+
+        label{
+            position: absolute;
+            @include font('Poppins',10px,400,$quationcolor);
+            text-transform: capitalize;
+            border: none;
+            // outline: none;
+            top: -13px;
+            left: 25px;
+            // @include pgap(5px, 5px, 10px, 10px);
+            @include pgap(0px,10px,6px,5px);
+
+        }
+        .contact-name{
+            width: 100%;
+            height: 64px;
+            border: 1px solid $contactformbg;
+            border-radius: 7px;
+            outline: none;
+            margin-bottom: 20px;
+            padding-left: 24px;
+
+            &::placeholder{
+                @include font('Poppins',18px,400,$headingcolor);
+                text-transform: capitalize;
+            }
+        }
+
+        .contact-email{
+            width: 100%;
+            height: 64px;
+            border: 1px solid $contactformbg;
+            border-radius: 7px;
+            border: none;
+            outline: none;
+            background-color: $contactbodybg;
+            margin-bottom: 20px;
+            padding-left: 24px;
+
+            &::placeholder{
+                @include font('Poppins',18px,400,$quationcolor);
+                text-transform: capitalize;
+            }
+        }
+
+        .contact-subject{
+            width: 100%;
+            height: 64px;
+            border: 1px solid $contactformbg;
+            border-radius: 7px;
+            border: none;
+            outline: none;
+            background-color: $contactbodybg;
+            margin-bottom: 20px;
+            padding-left: 24px;
+
+            &::placeholder{
+                @include font('Poppins',18px,400,$quationcolor);
+                text-transform: capitalize;
+            }
+        }
+
+        #contact-message{
+            width: 100%;
+            height: 200px;
+            border: 1px solid $contactformbg;
+            border-radius: 7px;
+            border: none;
+            outline: none;
+            background-color: $contactbodybg;
+            @include font('Poppins',18px,400,$quationcolor);
+            text-transform: capitalize;
+            @include pgap(24px,0,20px,0);
+            @include mgap(0,0,0,30px);
+        }
+
+        .mess-btn{
+            a{
+                width: 214px;
+                    display: inline-block;
+                    border: 1px solid $bordercolorbg;
+                    @include font('Poppins',17px,500,$anothertextcolor);
+                    @include pgap(0px,0px,22px,22px);
+                    text-transform: capitalize;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 40px;
+                    text-align: center;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        background-color: $bordercolorbg;
+                        color: $textcolor;
+                        border: none;
+                    }
+            }
+        }
+        
+
+    }
+
+    .contact-map{
+        position: relative;
+        .contact-img{
+            position: absolute;
+            top: 20px;
+            right: -130px;
+        }
+    }
+
+}
